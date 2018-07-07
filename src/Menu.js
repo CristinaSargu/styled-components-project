@@ -15,6 +15,11 @@ const MenuItem = styled.li`
 	border-color: ${props => props.isActive ? '#b4f6ee' : 'transparent'};
   padding: 15px 5px 5px;
   margin: 0 10px;
+  transition: border-color 0.2s ease;
+
+  &:hover {
+  	border-color: #b4f6ee;
+  }
 
 	.item-link {
 		font-family: 'Montserrat', sans-serif;

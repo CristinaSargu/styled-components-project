@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import Header from './Header';
 import MainInfo from './MainInfo';
 import Background from './Background';
-import slide from './img/main-image.png';
 
 const OneScreenWrapper = styled.div`
 	position: relative;
